@@ -3,12 +3,16 @@ import AboutSection from "../components/AboutSection.astro";
 import Complexity from "../components/Complexity.astro";
 import HeroSection from "../components/HeroSection.astro";
 import LandingHeader from "../components/LandingHeader.astro";
+import Experience from "../components/Experience.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Diego Vasquez">
+<Layout 
+  title="Portafolio Diego Vasquez"
+  description = "Ingeniero de Datos" 
+  >
   <LandingHeader />
-  <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
     <div class="snap-center">
       <HeroSection />
     </div>
